@@ -5,7 +5,7 @@
 ###  Client side
 
 * Massive Responsive Web Design
-* HTML5 Boilerplate
+* [HTML5 Boilerplate](http://html5boilerplate.com/)
 * Twitter Bootstrap
 * AngularJS
 * Full internationalization support with Angular Translate
