@@ -27,7 +27,7 @@ public class LoggingAspect {
     @Inject
     private Environment env;
 
-    @Pointcut("within(com.itgatedev.myapp.repository..*) || within(com.itgatedev.myapp.service..*) || within(com.itgatedev.myapp.web.rest..*)")
+    @Pointcut("within(com.jquaternion.jqsa.repository..*) || within(com.jquaternion.jqsa.service..*) || within(com.jquaternion.jqsa.web.rest..*)")
     public void loggingPoincut() {}
 
     @AfterThrowing(pointcut = "loggingPoincut()", throwing = "e")

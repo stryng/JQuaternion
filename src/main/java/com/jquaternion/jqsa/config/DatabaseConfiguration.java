@@ -23,7 +23,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Configuration
-@EnableJpaRepositories("com.itgatedev.myapp.repository")
+@EnableJpaRepositories("com.jquaternion.jqsa.repository")
 @EnableTransactionManagement
 @EnableJpaAuditing(auditorAwareRef = "springSecurityAuditorAware")
 public class DatabaseConfiguration implements EnvironmentAware {
@@ -41,7 +41,7 @@ public class DatabaseConfiguration implements EnvironmentAware {
     }
 
     @Bean(destroyMethod = "shutdown")
-    @ConditionalOnMissingClass(name = "com.itgatedev.myapp.config.HerokuDatabaseConfiguration.class")
+    @ConditionalOnMissingClass(name = "com.jquaternion.jqsa.config.HerokuDatabaseConfiguration.class")
     public DataSource dataSource() {
         log.debug("Configuring Datasource");
         if (propertyResolver.getProperty("url") == null && propertyResolver.getProperty("databaseName") == null) {
@@ -75,7 +75,7 @@ public class DatabaseConfiguration implements EnvironmentAware {
     @Bean(name = {"org.springframework.boot.autoconfigure.AutoConfigurationUtils.basePackages"})
     public List<String> getBasePackages() {
         List<String> basePackages = new ArrayList<>();
-        basePackages.add("com.itgatedev.myapp.domain");
+        basePackages.add("com.jquaternion.jqsa.domain");
         return basePackages;
     }
 
