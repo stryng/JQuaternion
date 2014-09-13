@@ -1,6 +1,6 @@
 {
     "global": {
-        "title": "ecbAppFramework",
+        "title": "jQuaternion",
         "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
         "menu": {
             "home": "Home",
@@ -61,19 +61,19 @@
         }
     },
     "main": {
-        "title": "Welcome to the ecbAppFramework!",
+        "title": "Welcome to the jQuaternion!",
         "subtitle": "This is your homepage",
         "logged": {
             "message": "You are logged in as user \"{{username}}\"."
         },
-        "question": "If you have any question on ecbAppFramework:",
+        "question": "If you have any question on jQuaternion:",
         "link": {
             "homepage": "",
             "stackoverflow": "",
             "bugtracker": "",
             "contact": ""
         },
-        "like": "If you like ecbAppFramework, don't forget to give us a star on",
+        "like": "If you like jQuaternion, don't forget to give us a star on",
         "github": "Github"
     },
     "activate": {
