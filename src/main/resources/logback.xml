@@ -28,7 +28,7 @@
 -->
 
     <logger name="javax.activation" level="WARN"/>
-    <logger name="com.itgatedev.myapp" level="DEBUG"/>
+    <logger name="com.jquaternion.jqsa" level="DEBUG"/>
     <logger name="ch.qos.logback" level="WARN"/>
     <logger name="com.codahale.metrics" level="WARN"/>
     <logger name="com.ryantenney" level="WARN"/>

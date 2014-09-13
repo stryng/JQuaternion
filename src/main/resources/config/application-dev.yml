@@ -52,9 +52,9 @@ cache:
 hotReload:
     enabled: true
     package:
-      project: com.itgatedev.myapp
-      domain: com.itgatedev.myapp.domain
-      restdto: com.itgatedev.myapp.web.rest.dto
+      project: com.jquaternion.jqsa
+      domain: com.jquaternion.jqsa.domain
+      restdto: com.jquaternion.jqsa.web.rest.dto
     liquibase:
       defaultCatalogName: 
       defaultSchema: public
