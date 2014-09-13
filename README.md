@@ -1,14 +1,15 @@
-#  Welcome to the JQuaternion!
-
+#  Welcome to **[jQuaternion](http://stryng.github.io/JQuaternion)**
+_An out-of-the-box Java APP MVC framework on s73r01ds_
+### Current Build Status/Tests @ [Travis](https://travis-ci.org/stryng/JQuaternion)
+![jQuaternion](https://travis-ci.org/stryng/JQuaternion.svg)
 ##  Tech stack
-
 ###  Client side
 
 * Massive Responsive Web Design
 * [HTML5 Boilerplate](http://html5boilerplate.com/)
-* Twitter Bootstrap
-* AngularJS
-* Full internationalization support with Angular Translate
+* [Twitter Bootstrap](http://getbootstrap.com/)
+* [AngularJS](https://angularjs.org/)
+* Full internationalization support with [Angular Translate - i18n](http://angular-translate.github.io/)
 * Optional Compass / Sass support for CSS design
 * Optional WebSocket support with the Atmosphere framework
 * Easy installation of new JavaScript libraries with Bower
