@@ -1,91 +1,123 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-  <title>jQuaternion</title>
-  <meta name="description" content="An out-of-the-box Java APP MVC framework on s73r01ds">
+    <title>JQuaternion by stryng</title>
+  </head>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
-
-<body>
-
-  <div class="wrapper">
+  <body>
     <header>
-      <h1 class="title">Jquaternion</h1>
+      <div class="inner">
+        <h1>JQuaternion</h1>
+        <h2>An out-of-the-box Java APP MVC framework on s73r01ds</h2>
+        <a href="https://github.com/stryng/JQuaternion" class="button"><small>View project on</small>GitHub</a>
+      </div>
     </header>
-    <div id="container">
-      <p class="tagline">An out-of-the-box Java APP MVC framework on s73r01ds</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/stryng/JQuaternion/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/stryng/JQuaternion/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/stryng/JQuaternion" class="code">View Jquaternion on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="welcome-to-jquaternion" class="anchor" href="#welcome-to-jquaternion"><span class="octicon octicon-link"></span></a>Welcome to <strong><a href="http://stryng.github.io/JQuaternion">jQuaternion</a></strong>
+</h1>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p><em>An out-of-the-box Java APP MVC framework on s73r01ds</em></p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h5>
+<a name="current-build-status" class="anchor" href="#current-build-status"><span class="octicon octicon-link"></span></a>Current Build Status</h5>
+
+<p><img src="https://travis-ci.org/stryng/JQuaternion.svg" alt="jQuaternion"> @ <a href="https://travis-ci.org/stryng/JQuaternion">Travis</a></p>
+
+<h2>
+<a name="tech-stack" class="anchor" href="#tech-stack"><span class="octicon octicon-link"></span></a>Tech stack</h2>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="client-side" class="anchor" href="#client-side"><span class="octicon octicon-link"></span></a>Client side</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<ul>
+<li>Massive Responsive Web Design</li>
+<li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a></li>
+<li><a href="http://getbootstrap.com/">Twitter Bootstrap</a></li>
+<li><a href="https://angularjs.org/">AngularJS</a></li>
+<li>Full internationalization support with <a href="http://angular-translate.github.io/">Angular Translate - i18n</a>
+</li>
+<li>Optional Compass / Sass support for CSS design</li>
+<li>Optional WebSocket support with the <a href="http://async-io.org/release.html">Atmosphere Framework</a>
+</li>
+<li>Easy installation of new JavaScript libraries with <a href="http://bower.io/">Bower</a>
+</li>
+<li>Build, optimization and live reload with <a href="http://gruntjs.com/">Grunt</a> or <a href="http://gulpjs.com/">Gulp.js</a>
+</li>
+<li>Testing with <a href="http://karma-runner.github.io/">Karma</a> and <a href="http://phantomjs.org/">PhantomJS</a>
+</li>
+<li>Support for the <a href="http://www.thymeleaf.org/">Thymeleaf</a> <em>(sorry JSP, JSTL l0v3rs)</em> template engine</li>
+</ul><h3>
+<a name="tech-stack-on-the-server-side" class="anchor" href="#tech-stack-on-the-server-side"><span class="octicon octicon-link"></span></a>Tech stack on the server side</h3>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<ul>
+<li>
+<a href="http://projects.spring.io/spring-framework/">Spring MVC</a> Java Application Delivered</li>
+<li>The great jhipster Loaded agent which extends Spring Loaded to give you hot reload of your Java code, Spring * * Beans, and many more...</li>
+<li>
+<a href="http://projects.spring.io/spring-boot/">Spring Boot</a> for easy application configuration</li>
+<li>
+<a href="http://maven.apache.org/">Maven</a> or <a href="http://www.gradle.org/">Gradle</a> configuration for building, testing and running the application</li>
+<li>"<em>Development</em>" and "<em>Production</em>" profiles (both for <a href="http://maven.apache.org/">Maven</a> and <a href="http://www.gradle.org/">Gradle</a>)</li>
+<li><a href="http://projects.spring.io/spring-security/">Spring Security</a></li>
+<li>
+<a href="http://projects.spring.io/spring-data-rest/">Spring DATA REST</a> + <a href="http://jackson.codehaus.org/">Jackson</a>
+</li>
+<li>Optional WebSocket support with the <a href="http://async-io.org/release.html">Atmosphere Framework</a>
+</li>
+<li>
+<a href="http://projects.spring.io/spring-data-jpa/">Spring Data JPA</a> + Bean Validation</li>
+<li>
+<a href="http://hibernate.org/">Hibernate</a> <a href="http://www.h2database.com/">H2</a>, <a href="http://hsqldb.org/">HyperSQL</a>, <a href="http://www.mysql.com/">MySQL</a> and <a href="http://www.oracle.com/us/products/database/overview/index.html">Oracle</a> Dialects Integration on the fly</li>
+<li>Database updates with <a href="http://www.liquibase.org/">Liquibase</a>
+</li>
+<li>
+<a href="http://www.mongodb.com/">MongoDB</a> support if you'd rather use NoSQL instead of a classical relational database</li>
+<li>Ready to go into from UAT -&gt; Production switch hot release branching cross all the above</li>
+<li>Monitoring with Metrics (<a href="https://code.google.com/p/psi-probe/">PSI-Probe</a> based approach, thanks to Ralf Krauß)</li>
+<li>Caching with <a href="http://ehcache.org/">ehCache</a>(local cache) or <a href="http://hazelcast.com/">hazelcast</a>(distributed cache)</li>
+<li>Optional HTTP session clustering with <a href="http://hazelcast.com/">hazelcast</a>
+</li>
+<li>Optimized static resources (gzip filter, HTTP cache headers)</li>
+<li>Log management with Logback, configurable at runtime</li>
+<li>Connection pooling with <a href="http://brettwooldridge.github.io/HikariCP/">HikariCP</a> for optimum performance</li>
+<li>Builds a standard WAR file or an executable JAR file</li>
+<li>Integration with <a href="http://tomcat.apache.org/">Apache Tomcat</a>, <a href="http://www.oracle.com/technetwork/middleware/weblogic/overview/index.html">Weblogic</a>, <a href="http://www-01.ibm.com/software/websphere/">Websphere</a> and <a href="http://www.redhat.com/en/technologies/jboss-middleware">JBoss</a>
+</li>
+</ul>
+        </section>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+        <aside id="sidebar">
+          <a href="https://github.com/stryng/JQuaternion/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/stryng/JQuaternion/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+          <p class="repo-owner"><a href="https://github.com/stryng/JQuaternion"></a> is maintained by <a href="https://github.com/stryng">stryng</a>.</p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </article>
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
       </div>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/stryng" class="avatar"><img src="https://avatars3.githubusercontent.com/u/950179?v=2&amp;s=60" width="48" height="48"></a> <a href="https://github.com/stryng">stryng</a> maintains <a href="https://github.com/stryng/JQuaternion">Jquaternion</a></p>
-
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/stryng/JQuaternion/tarball/master" class="tar">tar</a><a href="https://github.com/stryng/JQuaternion/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
 
             <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -98,5 +130,5 @@ $ git checkout gh-pages
             } catch(err) {}
           </script>
 
-</body>
+  </body>
 </html>
